@@ -9,9 +9,10 @@ In unserem Projekt geht es um die Verschlüsselung von Botschaften mit der Cesar
 
 # Planung mit IPERKA
 
-| I | Alle | Informieren über Cesar-Methode, verstehen wie diese funktioniert. In Gruppe absprechen, ob es alle verstanden haben. |
-| P | Alle | Auftrag in kleinere Teilaufgträge aufspalten.Einteilen wer welche Aufträge übernimmt, was für Wissen dazu nötig ist und allfällige Fragen mit dem Auftraggeber klären. |
-| E | Alle | Entscheiden, ob noch weitere Einteilungen/Informationen nötig sind. Plan nach Logik und Fehlern durchsuchen, wenn alles stimmt zur nächsten Phase übergehen. |
+|---|------|----------------------------------------------------------------------------------------------------------------------|
+| I | Alle | Informieren über Cesar-Methode, verstehen wie diese funktioniert. In Gruppe absprechen, ob es alle verstanden haben |
+| P | Alle | Auftrag in kleinere Teilaufgträge aufspalten.Einteilen wer welche Aufträge übernimmt, was für Wissen dazu nötig ist. Allfällige Fragen mit dem Auftraggeber klären |
+| E | Alle | Entscheiden, ob noch weitere Einteilungen/Informationen nötig sind. Plan nach Logik und Fehlern durchsuchen, wenn alles stimmt zur nächsten Phase übergehen |
 
 
 
