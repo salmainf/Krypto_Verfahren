@@ -52,7 +52,7 @@ In unserem Projekt geht es um die Verschlüsselung von Botschaften mit der Cesar
 
 ### 1.4 Diagramme
 
-![grafik](https://user-images.githubusercontent.com/110892351/186116210-84b1487f-cdf9-493f-9333-d1eac3e26092.png)
+![grafik] (PAP-Diagramm)
 
 
 ## 2 Planen
