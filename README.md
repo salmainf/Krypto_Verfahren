@@ -1,4 +1,4 @@
-# Krypto_Verfahren
+# Krypto-Verfahren
 
 Angelov (A), Eser (E), Marku (M), Tanner (T)
 
