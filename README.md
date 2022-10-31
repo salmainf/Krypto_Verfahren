@@ -27,6 +27,10 @@ In unserem Projekt geht es um die Verschlüsselung von Botschaften mit der Cesar
 
 Die Cesar Verschlüsselung ist die einfachste aber auch unsicherste Verschlüsselungsmethode. Man verschiebt im 26 buchstabigen lateinischen Alphabet die Zeichen zyklisch eine gewisse Anzahl nach rechts, somit geht es automatisch wieder zu "A" wenn es "Z" überschreitet.Diese Verschiebung ist der Schlüssel des ganzen. Bei dem ganzen Verfahren wird also das normale Alphabet mit dem Schlüssel auf eine neue Abfolge des Alphabets überschrieben.
 
+# Vigenère Verschlüsselung
+
+Diese Art der Verschlüsselung ist eine polyalphabetisch und im Gegensatz zur Cesar Verschlüsselung verschiebt sie nicht das ganze Alphabet sondern
+
 
 
 
