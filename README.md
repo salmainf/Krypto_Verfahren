@@ -23,6 +23,12 @@ In unserem Projekt geht es um die Verschlüsselung von Botschaften mit der Cesar
 
 # Informieren
 
+#Cesar Verschlüsselung
+
+Die Cesar Verschlüsselung ist die einfachste aber auch unsicherste Verschlüsselungsmethode. Man verschiebt im 26 buchstabigen lateinischen Alphabet die Zeichen zyklisch eine gewisse Anzahl nach rechts, somit geht es automatisch wieder zu "A" wenn es "Z" überschreitet.Diese Verschiebung ist der Schlüssel des ganzen. Bei dem ganzen Verfahren wird also das normale Alphabet mit dem Schlüssel auf eine neue Abfolge des Alphabets überschrieben.
+
+
+
 
 ### 1.1 User Stories
 
@@ -52,7 +58,7 @@ In unserem Projekt geht es um die Verschlüsselung von Botschaften mit der Cesar
 
 ### 1.4 Diagramme
 
-![grafik] (PAP-Diagramm)
+
 
 
 ## 2 Planen
