@@ -5,8 +5,7 @@ Angelov (A), Eser (E), Marku (M), Tanner (T)
 
 # Einführung
 
-In unserem Projekt geht es um die Verschlüsselung von Botschaften mit der Cesar-Methode. Man soll in einem, von uns erstellten Programm eine Eingegebene Nachricht verschlüsseln oder entschlüsseln können. Diese Verschlüsselungsmethode verschiebt im Prinzip einfach die Buchstabenabfolge (A wird zu D, B wird zu E usw.). Mithilfe unseres Programmes muss man sie nicht selber verstehen oder schreiben, man kann einfach die Botschaft eingeben und sie wird verschlüsselt/entschlüsselt.
-
+In unserem Projekt geht es um die Verschlüsselung von Botschaften mit zweier Verschlüsselungsarten. In unserem Programm, welches wir in Visual Studio mit C# implementiert haben, kann man als Benutzer auswählen, mit welcher Methode die Botschaft verschlüsselt werden soll. Danach gibt man den Schlüssel/das Schlüsselwort ein. Wenn es eingelesen wurde, kann man nun seine Botschaft eingeben, welche dann verschlüsselt und auf einer neuen Zeile ausgegeben wird. Danach kann man nach Wunsch auch noch weitere Botschaften verschlüsseln.
 
 # Definierung
 
