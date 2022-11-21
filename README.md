@@ -29,7 +29,7 @@ Die Cesar Verschlüsselung ist die einfachste aber auch unsicherste Verschlüsse
 
 # Vigenère Verschlüsselung
 
-Diese Art der Verschlüsselung ist eine polyalphabetisch und im Gegensatz zur Cesar Verschlüsselung verschiebt sie nicht das ganze Alphabet sondern
+
 
 
 
