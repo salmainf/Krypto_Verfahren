@@ -1,4 +1,4 @@
-# Krypto-Verfahren
+## Krypto-Verfahren
 
 Angelov (A), Eser (E), Marku (M), Tanner (T)
 
@@ -20,8 +20,7 @@ In unserem Projekt geht es um die Verschlüsselung von Botschaften mit der Cesar
 |A|Alle||
 
 
-
-# 1 Informieren
+# Definierung
 
 # Cesar Verschlüsselung
 
@@ -51,8 +50,7 @@ D.h z.B wenn das Schlüsselwort "montag" wäre und der Klartext ist "Ich liebe d
 
 Nun rechnen wir für den ersten Buchstaben 12+8=20, 20 wäre die Positionszahl von U. Der erste Buchstabe ist nun also U, so fahren wir weiter fort, bis das Wort komplett verschlüsselt ist. Das Endresultat ist "UQUEIKNSQXNSABHTG".
 
-
-
+## 1 Informieren
 
 
 ### 1.1 User Stories
