@@ -27,8 +27,29 @@ In unserem Projekt geht es um die Verschlüsselung von Botschaften mit der Cesar
 
 Die Cesar Verschlüsselung ist die einfachste aber auch unsicherste Verschlüsselungsmethode. Man verschiebt im 26 buchstabigen lateinischen Alphabet die Zeichen zyklisch eine gewisse Anzahl nach rechts, somit geht es automatisch wieder zu "A" wenn es "Z" überschreitet.Diese Verschiebung ist der Schlüssel des ganzen. Bei dem ganzen Verfahren wird also das normale Alphabet mit dem Schlüssel auf eine neue Abfolge des Alphabets überschrieben.
 
+D.h z.B wenn der Schlüssel 8 ist, wäre A=I
+
+So könnte man das Wort "Sicher" mit diesem Schlüssel verschlüsseln. Somit käme man auf das verschlüsselte Wort: "AQKPMZ"
+
 # Vigenère Verschlüsselung
 
+Bei der Vignere Verschlüsselung wird nicht, wie bei der Cesar, jeder Klartextbuchstabe um eine gewisse Zahl verschoben, sonder man verschiebt mithilfe eines Schlüsselwortes. Das Schlüsselwort kann selbstständig gewählt werden vom Benutzer. Hierbei nummeriert man das Alphabet von 0-25, d.h z.B A=0 und B=1 usw. Man weist also erst einmal jedem Buchstaben des Schlüsselwortes und des Klartextes eine Zahl, also die Position des Buchstabens, zu. Dann begint man und Verschlüsselt immer den ersten Buchstaben des Klartextes, mit dem ersten Buchstaben des Schlüsselwortes. Wenn das Schlüsselwort zu Ende ist, fängt man wieder von vorne an. Nun addiert man die beiden Zahlen der zusammengehörigen Buchstaben und erhält somit die Positionszahl des verschlüsselten Buchstaben.
+
+D.h z.B wenn das Schlüsselwort "montag" wäre und der Klartext ist "Ich liebe den Montag" verschieben wir so:
+
+|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|M|O|N|T|A|G|M|O|N|T|A|G|M|O|N|T|A|
+|12|14|13|19|0|6|12|14|13|19|0|6|12|14|13|19|0|
+|I|C|H|L|I|E|B|E|D|E|N|M|O|N|T|A|G|
+|8|2|7|11|8|4|1|4|3|4|13|12|14|13|19|0|6|
+
+
+|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|
+
+Nun rechnen wir für den ersten Buchstaben 12+8=20, 20 wäre die Positionszahl von U. Der erste Buchstabe ist nun also U, so fahren wir weiter fort, bis das Wort komplett verschlüsselt ist. Das Endresultat ist "U
 
 
 
