@@ -7,18 +7,6 @@ Angelov (A), Eser (E), Marku (M), Tanner (T)
 
 In unserem Projekt geht es um die Verschlüsselung von Botschaften mit der Cesar-Methode. Man soll in einem, von uns erstellten Programm eine Eingegebene Nachricht verschlüsseln oder entschlüsseln können. Diese Verschlüsselungsmethode verschiebt im Prinzip einfach die Buchstabenabfolge (A wird zu D, B wird zu E usw.). Mithilfe unseres Programmes muss man sie nicht selber verstehen oder schreiben, man kann einfach die Botschaft eingeben und sie wird verschlüsselt/entschlüsselt.
 
-# Planung mit IPERKA
-
-
-| IPERKA | Mitglied | Zusammenfassung                                              |
-| ----- | ------- | ------------------------------------------------------------ |
-|I|Alle|Informieren über Cesar-Methode, verstehen wie diese funktioniert. In Gruppe absprechen, ob es alle verstanden haben |
-|P|Alle|Auftrag in kleinere Teilaufgträge aufspalten.Einteilen wer welche Aufträge übernimmt, was für Wissen dazu nötig ist. Allfällige Fragen mit dem Auftraggeber klären|    
-|E|Alle|Entscheiden, ob noch weitere Einteilungen/Informationen nötig sind. Plan nach Logik und Fehlern durchsuchen, wenn alles stimmt zur nächsten Phase übergehen|
-|R|Alle|Programmieren des Projektes in Visual Studios|
-|K|Alle||
-|A|Alle||
-
 
 # Definierung
 
@@ -49,6 +37,20 @@ D.h z.B wenn das Schlüsselwort "montag" wäre und der Klartext ist "Ich liebe d
 |0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|
 
 Nun rechnen wir für den ersten Buchstaben 12+8=20, 20 wäre die Positionszahl von U. Der erste Buchstabe ist nun also U, so fahren wir weiter fort, bis das Wort komplett verschlüsselt ist. Das Endresultat ist "UQUEIKNSQXNSABHTG".
+
+# Planung mit IPERKA
+
+
+| IPERKA | Mitglied | Zusammenfassung                                              |
+| ----- | ------- | ------------------------------------------------------------ |
+|I|Alle|Informieren über Cesar-Methode, verstehen wie diese funktioniert. In Gruppe absprechen, ob es alle verstanden haben |
+|P|Alle|Auftrag in kleinere Teilaufgträge aufspalten.Einteilen wer welche Aufträge übernimmt, was für Wissen dazu nötig ist. Allfällige Fragen mit dem Auftraggeber klären|    
+|E|Alle|Entscheiden, ob noch weitere Einteilungen/Informationen nötig sind. Plan nach Logik und Fehlern durchsuchen, wenn alles stimmt zur nächsten Phase übergehen|
+|R|Alle|Programmieren des Projektes in Visual Studios|
+|K|Alle||
+|A|Alle||
+
+
 
 ## 1 Informieren
 
