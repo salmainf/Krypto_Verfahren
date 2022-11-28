@@ -58,27 +58,28 @@ Nun rechnen wir für den ersten Buchstaben 12+8=20, 20 wäre die Positionszahl v
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |  Funktional     | Muss | Als Programmierer möchte ich dem Benutzer die Auswahlmöglichkeit zwischen der Cesar- oder Vignere-Verschlüsselung geben |
-| 2    |  Funktional     | Muss | Als Programmierer möchte ich dem Benutzer die Auswahlmöglichkeit zwischen codieren/decodieren geben |
-| 3    |  Funktional     | Muss | Als Benutzer möchte ich eine Botschaft eingeben können |
-| 4    |  Funktional     | Muss | Als Programmierer möchte ich die Botschaft erfolgreich verschlüsseln/entschlüsseln können |
-| 5    |  Funktional     | Muss | Als Benutzer möchte ich meine Botschaft verarbeitet wieder ausgegeben angezeigt bekommen |
-| 6    |  Qualität       | Muss | Als Benutzer möchte ich die Möglichkeit bekommen nochmals eine Botschaft einzugeben|
-| 7    |  Qualität       | Muss | Als Programmierer möchte ich bei einer inkorrekten Eingabe eine Fehlermeldung ausgeben können |
+| 1    |  Funktional     | Muss | Als Programmierer möchte ich dem Benutzer die Auswahlmöglichkeit zwischen der Cesar/Base-64/Vignere Verschlüsselung geben |
+| 2    |  Funktional     | Muss | Als Programmierer möchte ich dem Benutzer die Auswahlmöglichkeit zwischen kodieren/dekodieren geben |
+| 3    |  Funktional     | Muss | Als Benutzer möchte ich einen Schlüssel eingeben können, mit dem meine Botschaft verschlüsselt wird |
+| 4    |  Funktional     | Muss | Als Benutzer möchte ich eine Botschaft eingeben können |
+| 5    |  Funktional     | Muss | Als Programmierer möchte ich die Botschaft erfolgreich verschlüsseln/entschlüsseln können |
+| 6    |  Funktional     | Muss | Als Benutzer möchte ich meine Botschaft verarbeitet wieder ausgegeben angezeigt bekommen |
+| 7    |  Qualität       | Muss | Als Benutzer möchte ich die Möglichkeit bekommen nochmals eine Botschaft einzugeben|
+| 8    |  Qualität       | Muss | Als Programmierer möchte ich bei einer inkorrekten Eingabe eine Fehlermeldung ausgeben können |
 
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |Konsole startet, warten auf Auswahl|Auswahl einer Verschlüsselung-Art|Ausgabe von meiner eingegebenen Auswahl|
+| 1.1  |Konsole startet, warten auf Auswahl|Auswahl einer Verschlüsselung-Art|Ausgabe von meiner Auswahl|
 | 1.2  |Konsole läuft, Abfragen, welchen Dienst, Codieren/Decodieren|Eingabe des gewüschten Dienstes| Ausgabe meiner Wahl|
-| 1.3  |Konsole läuft, warten auf Eingabe von Botschaft| Eingabe einer Botschaft | Einlesen der Botschaft|
-| 1.4  |Konsole läuft, Botschaft erhalten|Verschlüsseln/Entschlüsseln der Botschaft| Ausgabe von verarbeiteter Botschaft|
-| 1.5  |Konsole läuft, Botschaft wurde verarbeitet|-| Ausgabe von fertig verarbeiteten Botschaft|
-| 1.6  |Konsole läuft, warten auf Eingabe| Eingabe einer Antwort (j/n)| Je nach Antwort, Beenden des Programmes oder Neustart |
-| 1.7  |Konsole läuft, warten auf Eingabe| Fehlerhafte Eingabe| Ausgeben einer Fahlermeldung, anstelle von Shutdown|
-
+| 1.3  |Konsole läuft, warten auf Eingabe von Schlüssel| Eingabe eines Schlüssels | Einlesen des Schlüssels|
+| 1.4  |Konsole läuft, warten auf Eingabe von Botschaft| Eingabe einer Botschaft | Einlesen der Botschaft|
+| 1.5  |Konsole läuft, Botschaft erhalten|Verschlüsseln/Entschlüsseln der Botschaft| Ausgabe von verarbeiteter Botschaft|
+| 1.6  |Konsole läuft, Botschaft wurde verarbeitet|-| Ausgabe von fertig verarbeiteten Botschaft|
+| 1.7  |Konsole läuft, warten auf Eingabe| Eingabe einer Antwort (j/n)| Je nach Antwort, Beenden des Programmes oder Neustart |
+| 1.8  |Konsole läuft, warten auf Eingabe| Fehlerhafte Eingabe| Ausgeben einer Fahlermeldung, anstelle von Shutdown|
 
 ### 1.4 Diagramme
 
