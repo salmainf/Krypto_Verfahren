@@ -43,11 +43,11 @@ Nun rechnen wir für den ersten Buchstaben 12+8=20, 20 wäre die Positionszahl v
 | IPERKA | Mitglied | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |I|Alle|Informieren über Cesar-Methode, verstehen wie diese funktioniert. In Gruppe absprechen, ob es alle verstanden haben |
-|P|Alle|Auftrag in kleinere Teilaufgträge aufspalten.Einteilen wer welche Aufträge übernimmt, was für Wissen dazu nötig ist. Allfällige Fragen mit dem Auftraggeber klären|    
+|P|Alle|Planen, Auftrag in kleinere Teilaufgträge aufspalten.Einteilen wer welche Aufträge übernimmt, was für Wissen dazu nötig ist. Allfällige Fragen mit dem Auftraggeber klären|    
 |E|Alle|Entscheiden, ob noch weitere Einteilungen/Informationen nötig sind. Plan nach Logik und Fehlern durchsuchen, wenn alles stimmt zur nächsten Phase übergehen|
 |R|Alle|Programmieren des Projektes in Visual Studios|
-|K|Alle||
-|A|Alle||
+|K|Alle|Kontrollieren, ob das Programm sauberläuft|
+|A|Alle|Auswerten des Endproduktes|
 
 
 
@@ -102,23 +102,12 @@ Total: 6h
 
 ## 3 Entscheiden
 
-
-
-## 4 Realisieren
-
-| AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
-| ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |30.8.22|Salma Tanner|45min|15min|
-| 2.A  |30.8.22|Salma Tanner|45min|15min|
-| 2.B  |30.8.22|Salma Tanner|45min|30min|
-| 3.A  |30.8.22|Salma Tanner|45min|30min|
-| 4.A  |06.9.22|Salma Tanner|45min|45min|
-| 5.A  |06.9.22|Salma Tanner|45min|45min|
+Wir haben die Cesar Verschlüsselung erfolgreich Programmieren können und haben dann begonnen, die Vignere Verschlüsselung zu implementieren.
 
 
 ## 5 Kontrollieren
 
-### 5.1 Testprotokoll
+ AA-
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
@@ -127,14 +116,11 @@ Total: 6h
 | 1.3  |13.9.22|Funktioniert alles|Salma Tanner|
 | 1.4  |13.9.22|Guter Umgang mit Fehleingabe, korrekt|Salma Tanner|
 | 1.5  |13.9.22|Anzeigen der Versuche funktioniert|Salma Tanner|
+| 1.6  |13.9.22|Anzeigen der Versuche funktioniert|Salma Tanner|
+| 1.7  |13.9.22|Anzeigen der Versuche funktioniert|Salma Tanner|
 
-Das Spiel funktioniert und beinhaltet alle Vorgaben. Jedoch hat es einen Fehler bei der Eingabe. Wenn man eine höhere Zahl als hundert eingibt, wird diese auch akzeptiert, nur bei etwas anderem als einer Zahl gibt es eine Fehlermeldung aus.
 
-### 5.2 Exploratives Testen
-
-| BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
-| ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |Benutzer-Eingabe einer Zahl über oder unter 1-100|Fehlermeldung, Aufforderung zur erneuter Eingabe|Rückmeldung, dass die Zahl zu klein oder zu gross ist|                      
+AA-Das Spiel funktioniert und beinhaltet alle Vorgaben. Jedoch hat es einen Fehler bei der Eingabe. Wenn man eine höhere Zahl als hundert eingibt, wird diese auch akzeptiert, nur bei etwas anderem als einer Zahl gibt es eine Fehlermeldung aus.
 
 
 
@@ -142,8 +128,3 @@ Das Spiel funktioniert und beinhaltet alle Vorgaben. Jedoch hat es einen Fehler 
 
 
 
-# Ablauf
-
-1.A Codieren/Decodieren programmiert
-1.B Wiederholungslauf mithilfe von while-Schlaufe
-2.A Fehler-Debugging
