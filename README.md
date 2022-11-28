@@ -1,6 +1,6 @@
 ## Krypto-Verfahren
 
-Angelov (A), Eser (E), Marku (M), Tanner (T)
+Angelov , Eser , Marku , Tanner 
 
 
 # Einführung
