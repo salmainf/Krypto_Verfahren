@@ -42,12 +42,12 @@ Nun rechnen wir für den ersten Buchstaben 12+8=20, 20 wäre die Positionszahl v
 
 | IPERKA | Mitglied | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|I|Alle|Informieren über Cesar-Methode, verstehen wie diese funktioniert. In Gruppe absprechen, ob es alle verstanden haben |
-|P|Alle|Planen, Auftrag in kleinere Teilaufgträge aufspalten.Einteilen wer welche Aufträge übernimmt, was für Wissen dazu nötig ist. Allfällige Fragen mit dem Auftraggeber klären|    
-|E|Alle|Entscheiden, ob noch weitere Einteilungen/Informationen nötig sind. Plan nach Logik und Fehlern durchsuchen, wenn alles stimmt zur nächsten Phase übergehen|
-|R|Alle|Programmieren des Projektes in Visual Studios|
-|K|Alle|Kontrollieren, ob das Programm sauberläuft|
-|A|Alle|Auswerten des Endproduktes|
+|I|Alle|Informieren über Cesar-Methode, verstehen wie diese funktioniert. In Gruppe absprechen, ob es alle verstanden haben. |
+|P|Alle|Planen, Auftrag in kleinere Teilaufgträge aufspalten.Einteilen wer welche Aufträge übernimmt, was für Wissen dazu nötig ist. Allfällige Fragen mit dem Auftraggeber klären.|    
+|E|Alle|Entscheiden, ob noch weitere Einteilungen/Informationen nötig sind. Plan nach Logik und Fehlern durchsuchen, wenn alles stimmt zur nächsten Phase übergehen.|
+|R|Alle|Programmieren des Projektes in Visual Studios.|
+|K|Alle|Kontrollieren, ob das Programm sauber läuft.|
+|A|Alle|Auswerten des Endproduktes.|
 
 
 
@@ -58,11 +58,11 @@ Nun rechnen wir für den ersten Buchstaben 12+8=20, 20 wäre die Positionszahl v
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |  Funktional     | Muss | Als Programmierer möchte ich dem Benutzer die Auswahlmöglichkeit zwischen codieren/decodieren geben |
-| 2    |  Funktional     | Muss | Als Benutzer möchte ich eine Botschaft eingeben können |
-| 3    |  Funktional     | Muss | Als Programmierer möchte ich die Botschaft erfolgreich verschlüsseln/entschlüsseln können |
-| 4    |  Funktional     | Muss | Als Benutzer möchte ich meine Botschaft verarbeitet wieder ausgegeben angezeigt bekommen |
-| 5    |  Qualität       | Muss | Als Programmierer möchte ich den Benutzer abfragen, ob er nochmals eine Eingabe tätigen will|
+| 1    |  Funktional     | Muss | Als Programmierer möchte ich dem Benutzer die Auswahlmöglichkeit zwischen der Cesar- oder Vignere-Verschlüsselung geben |
+| 2    |  Funktional     | Muss | Als Programmierer möchte ich dem Benutzer die Auswahlmöglichkeit zwischen codieren/decodieren geben |
+| 3    |  Funktional     | Muss | Als Benutzer möchte ich eine Botschaft eingeben können |
+| 4    |  Funktional     | Muss | Als Programmierer möchte ich die Botschaft erfolgreich verschlüsseln/entschlüsseln können |
+| 5    |  Funktional     | Muss | Als Benutzer möchte ich meine Botschaft verarbeitet wieder ausgegeben angezeigt bekommen |
 | 6    |  Qualität       | Muss | Als Benutzer möchte ich die Möglichkeit bekommen nochmals eine Botschaft einzugeben|
 | 7    |  Qualität       | Muss | Als Programmierer möchte ich bei einer inkorrekten Eingabe eine Fehlermeldung ausgeben können |
 
