@@ -94,11 +94,11 @@ Nun rechnen wir für den ersten Buchstaben 12+8=20, 20 wäre die Positionszahl v
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  |  24.10.22     |Erik Marku|Auswahl der Verschlüsselungs-Art |180 Min|
 | 2.A  |  24.10.22     |Angel Angelov|Kodieren/Dekodieren, mithilfe von Variablen |180 Min|
-| 2.B  |  31.10.22     |Erik Marku| Eingabe des Schlüssels |180 Min|
-| 3.A  |  31.10.22     |Angel Angelov| Verchlüsselung/Entschlüsselung implementieren|180 Min|
-| 4.A  |  07.11.22     |Erik Marku| Speichern und Ausgabe der Botschaft | 60 Min|
-| 5.A  |  07.11.22     |Angel Angelov| Fragen nach erneuter Eingabe| 90 Min|
-| 5.A  |  07.11.22     |Angel Angelov| Fehlermeldung generieren, try/catch| 60 Min|
+| 2.B  |  31.10.22     |Salma Tanner| Eingabe des Schlüssels |180 Min|
+| 3.A  |  31.10.22     |Angel Angelov/Erik Marku| Verchlüsselung/Entschlüsselung implementieren|180 Min|
+| 4.A  |  07.11.22     |Sudenas Eser| Speichern und Ausgabe der Botschaft | 60 Min|
+| 5.A  |  07.11.22     |Sudenas Eser| Fragen nach erneuter Eingabe| 90 Min|
+| 5.A  |  07.11.22     |Salma Tanner| Fehlermeldung generieren, try/catch| 60 Min|
 Total: 930 Min
 
 # Vignere
