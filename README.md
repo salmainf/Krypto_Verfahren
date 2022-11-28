@@ -71,13 +71,13 @@ Nun rechnen wir für den ersten Buchstaben 12+8=20, 20 wäre die Positionszahl v
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |Konsole startet, warten auf Eingabe|Eingabe einer Auswahlmöglichkeit|Ausgabe von meiner eingegebener Auswahl|
-| 1.2  |Konsole läuft, warten auf Eingabe|Eingabe von Botschaft| Ausgabe meiner Botschaft|
-| 1.3  |Konsole läuft, Botschaft erhalten| Botschaft verschlüsseln/entschlüsseln| Ausgabe von verarbeiteter Botschaft|
-| 1.4  |Konsole läuft| Warten auf Verarbeitung der Botschaft| Ausgabe von verarbeiteter Botschaft|
-| 1.5  |Konsole läuft, Botschaft wurde ausgegeben| Nachfrage an Benutzer über erneute Eingabe| Ausgabe von Frage, ob Benutzer nochmals eine Eingabe tätigen will|
-| 1.6  |Konsole läuft, warten auf Eingabe| Eingabe einer Antwort (j/n)| Je nach Antwort, Beenden des Programmes oder Ausgabe von Antwort|
-| 1.7  |Konsole läuft, warten auf Eingabe| Fehlerhafte Eingabe| Ausgeben einer Fahlermeldung, anstatt von Shutdown|
+| 1.1  |Konsole startet, warten auf Auswahl|Auswahl einer Verschlüsselung-Art|Ausgabe von meiner eingegebenen Auswahl|
+| 1.2  |Konsole läuft, Abfragen, welchen Dienst, Codieren/Decodieren|Eingabe des gewüschten Dienstes| Ausgabe meiner Wahl|
+| 1.3  |Konsole läuft, warten auf Eingabe von Botschaft| Eingabe einer Botschaft | Einlesen der Botschaft|
+| 1.4  |Konsole läuft, Botschaft erhalten|Verschlüsseln/Entschlüsseln der Botschaft| Ausgabe von verarbeiteter Botschaft|
+| 1.5  |Konsole läuft, Botschaft wurde verarbeitet|-| Ausgabe von fertig verarbeiteten Botschaft|
+| 1.6  |Konsole läuft, warten auf Eingabe| Eingabe einer Antwort (j/n)| Je nach Antwort, Beenden des Programmes oder Neustart |
+| 1.7  |Konsole läuft, warten auf Eingabe| Fehlerhafte Eingabe| Ausgeben einer Fahlermeldung, anstelle von Shutdown|
 
 
 ### 1.4 Diagramme
@@ -87,15 +87,32 @@ Nun rechnen wir für den ersten Buchstaben 12+8=20, 20 wäre die Positionszahl v
 
 ## 2 Planen
 
+# Cesar
+
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |  13.9.22     |Salma Tanner| Erstellen von Benutzereingaben für Zahl|45 Min|
-| 2.A  |  13.9.22     |Salma Tanner| Erstellen von zufälligem Zahlengenerator|45 Min|
-| 2.B  |  13.9.22     |Salma Tanner| Erstellen von Kontrolle für Benutzerzahl/Rückmeldung |45 Min|
-| 3.A  |  13.9.22     |Salma Tanner| Ausgabe von Rückmeldung an Benutzer|45 Min|
-| 4.A  |  06.9.22     |Salma Tanner| Bei ungültiger Eingabe, erneuter versuch anstelle von Programmm-Ende| 45 Min|
-| 5.A  |  06.9.22     |Salma Tanner| Nach erraten der Zahl, werden gebrauchte Versuche ausgegeben| 45 Min|
+| 1.A  |  24.10.22     |Erik Marku| Erstellen von Benutzereingaben für Zahl|45 Min|
+| 2.A  |  24.10.22     |Angel Angelov| Erstellen von zufälligem Zahlengenerator|45 Min|
+| 2.B  |  31.10.22     |Erik Marku| Erstellen von Kontrolle für Benutzerzahl/Rückmeldung |45 Min|
+| 3.A  |  31.10.22     |Angel Angelov| Ausgabe von Rückmeldung an Benutzer|45 Min|
+| 4.A  |  07.11.22     |Erik Marku| Bei ungültiger Eingabe, erneuter versuch anstelle von Programmm-Ende| 45 Min|
+| 5.A  |  07.11.22     |Angel Angelov| Nach erraten der Zahl, werden gebrauchte Versuche ausgegeben| 45 Min|
+| 5.A  |  07.11.22     |Angel Angelov| Nach erraten der Zahl, werden gebrauchte Versuche ausgegeben| 45 Min|
 Total: 6h
+
+# Vignere
+
+| AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
+| ---- | ----- | --------- | ------------ | ------------- |
+| 1.A  |  14.11.22    |Sudenas Eser| Erstellen von Benutzereingaben für Zahl|45 Min|
+| 2.A  |  14.11.22    |Salma Tanner| Erstellen von zufälligem Zahlengenerator|45 Min|
+| 2.B  |  21.11.22    |Sudenas Eser Erstellen von Kontrolle für Benutzerzahl/Rückmeldung |45 Min|
+| 3.A  |  21.11.22    |Salma Tanner| Ausgabe von Rückmeldung an Benutzer|45 Min|
+| 4.A  |  28.11.22    |Sudenas Eser| Bei ungültiger Eingabe, erneuter versuch anstelle von Programmm-Ende| 45 Min|
+| 5.A  |  28.11.22    |Salma Tanner| Nach erraten der Zahl, werden gebrauchte Versuche ausgegeben| 45 Min|
+| 5.A  |  5.11.22     |Salma Tanner| Nach erraten der Zahl, werden gebrauchte Versuche ausgegeben| 45 Min|
+Total: 6h
+
 
 
 
@@ -103,6 +120,10 @@ Total: 6h
 ## 3 Entscheiden
 
 Wir haben die Cesar Verschlüsselung erfolgreich Programmieren können und haben dann begonnen, die Vignere Verschlüsselung zu implementieren.
+
+
+## 4 Realisieren
+
 
 
 ## 5 Kontrollieren
