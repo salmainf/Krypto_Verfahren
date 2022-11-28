@@ -91,27 +91,28 @@ Nun rechnen wir für den ersten Buchstaben 12+8=20, 20 wäre die Positionszahl v
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |  24.10.22     |Erik Marku| Erstellen von Benutzereingaben für Zahl|45 Min|
-| 2.A  |  24.10.22     |Angel Angelov| Erstellen von zufälligem Zahlengenerator|45 Min|
-| 2.B  |  31.10.22     |Erik Marku| Erstellen von Kontrolle für Benutzerzahl/Rückmeldung |45 Min|
-| 3.A  |  31.10.22     |Angel Angelov| Ausgabe von Rückmeldung an Benutzer|45 Min|
-| 4.A  |  07.11.22     |Erik Marku| Bei ungültiger Eingabe, erneuter versuch anstelle von Programmm-Ende| 45 Min|
-| 5.A  |  07.11.22     |Angel Angelov| Nach erraten der Zahl, werden gebrauchte Versuche ausgegeben| 45 Min|
-| 5.A  |  07.11.22     |Angel Angelov| Nach erraten der Zahl, werden gebrauchte Versuche ausgegeben| 45 Min|
-Total: 6h
+| 1.A  |  24.10.22     |Erik Marku|Auswahl der Verschlüsselungs-Art |180 Min|
+| 2.A  |  24.10.22     |Angel Angelov|Kodieren/Dekodieren, mithilfe von Variablen |180 Min|
+| 2.B  |  31.10.22     |Erik Marku| Eingabe des Schlüssels |180 Min|
+| 3.A  |  31.10.22     |Angel Angelov| Verchlüsselung/Entschlüsselung implementieren|180 Min|
+| 4.A  |  07.11.22     |Erik Marku| Speichern und Ausgabe der Botschaft | 60 Min|
+| 5.A  |  07.11.22     |Angel Angelov| Fragen nach erneuter Eingabe| 90 Min|
+| 5.A  |  07.11.22     |Angel Angelov| Fehlermeldung generieren, try/catch| 60 Min|
+Total: 930 Min
 
 # Vignere
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |  14.11.22    |Sudenas Eser| Erstellen von Benutzereingaben für Zahl|45 Min|
-| 2.A  |  14.11.22    |Salma Tanner| Erstellen von zufälligem Zahlengenerator|45 Min|
-| 2.B  |  21.11.22    |Sudenas Eser Erstellen von Kontrolle für Benutzerzahl/Rückmeldung |45 Min|
-| 3.A  |  21.11.22    |Salma Tanner| Ausgabe von Rückmeldung an Benutzer|45 Min|
-| 4.A  |  28.11.22    |Sudenas Eser| Bei ungültiger Eingabe, erneuter versuch anstelle von Programmm-Ende| 45 Min|
-| 5.A  |  28.11.22    |Salma Tanner| Nach erraten der Zahl, werden gebrauchte Versuche ausgegeben| 45 Min|
-| 5.A  |  5.11.22     |Salma Tanner| Nach erraten der Zahl, werden gebrauchte Versuche ausgegeben| 45 Min|
-Total: 6h
+| 1.A  |  14.11.22    |Sudenas Eser|  |180 Min|
+| 2.A  |  14.11.22    |Salma Tanner| Erstellen von zufälligem Zahlengenerator|180 Min|
+| 2.B  |  21.11.22    |Sudenas Eser Erstellen von Kontrolle für Benutzerzahl/Rückmeldung |180 Min|
+| 3.A  |  21.11.22    |Salma Tanner| Ausgabe von Rückmeldung an Benutzer|180 Min|
+| 4.A  |  28.11.22    |Sudenas Eser| Bei ungültiger Eingabe, erneuter versuch anstelle von Programmm-Ende| 180 Min|
+| 5.A  |  28.11.22    |Salma Tanner| Nach erraten der Zahl, werden gebrauchte Versuche ausgegeben| 90 Min|
+| 6.A  |  5.11.22     |Salma Tanner| Nach erraten der Zahl, werden gebrauchte Versuche ausgegeben| 60 Min|
+Total: 930 Min
+
 
 
 
@@ -119,10 +120,11 @@ Total: 6h
 
 ## 3 Entscheiden
 
-Wir haben die Cesar Verschlüsselung erfolgreich Programmieren können und haben dann begonnen, die Vignere Verschlüsselung zu implementieren.
+Wir haben die Cesar Verschlüsselung erfolgreich Programmieren können und haben dann begonnen, die Vignere Verschlüsselung zu implementieren. Die Aufteilung ist bei uns durchmischt, da wir uns Freiheiten lassen wollten. Somit hat jeder einen Teil programmiert aber die Interessen wurden doch noch abgedeckt.
 
 
 ## 4 Realisieren
+
 
 
 
