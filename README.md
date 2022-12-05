@@ -105,8 +105,8 @@ Total: 1000 Min
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |  14.11.22    |Sudenas Eser|  |180 Min|
-| 2.A  |  14.11.22    |Salma Tanner| Erstellen von zufälligem Zahlengenerator|180 Min|
+| 1.A  |  14.11.22    |Sudenas Eser| |180 Min|
+| 2.A  |  14.11.22    |Salma Tanner| Einlesen von Schlüssel, wenn kleiner/grösser als Botschaft|180 Min|
 | 2.B  |  21.11.22    |Sudenas Eser | Erstellen von Kontrolle für Benutzerzahl/Rückmeldung |180 Min|
 | 3.A  |  21.11.22    |Salma Tanner| Ausgabe von Rückmeldung an Benutzer|180 Min|
 | 4.A  |  28.11.22    |Sudenas Eser| Bei ungültiger Eingabe, erneuter versuch anstelle von Programmm-Ende| 180 Min|
@@ -135,13 +135,14 @@ Beim realisieren hatten wir einen guten Start mit der Caesar-Verschlüsselung. J
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |13.9.22|Alles funktioniert, korrekte Ausgabe|Salma Tanner|
-| 1.2  |13.9.22|Vollständige ausgabe|Salma Tanner|
-| 1.3  |13.9.22|Funktioniert alles|Salma Tanner|
-| 1.4  |13.9.22|Guter Umgang mit Fehleingabe, korrekt|Salma Tanner|
-| 1.5  |13.9.22|Anzeigen der Versuche funktioniert|Salma Tanner|
-| 1.6  |13.9.22|Anzeigen der Versuche funktioniert|Salma Tanner|
-| 1.7  |13.9.22|Anzeigen der Versuche funktioniert|Salma Tanner|
+| 1.1  |05.12.22|Funktioniert|Salma Tanner|
+| 1.2  |05.12.22|Funktioniert|Salma Tanner|
+| 1.3  |05.12.22|Funktioniert|Sudenas Eser|
+| 1.4  |05.12.22|Funktioniert|Sudenas Eser|
+| 1.5  |05.12.22|Funktioniert|Erik Marku|
+| 1.6  |05.12.22|Funktioniert|Erik Marku|
+| 1.7  |05.12.22|Funktioniert|Angel Angelov|
+| 1.8  |05.12.22|Funktioniert|Angel Angelov|
 
 
 AA-Das Spiel funktioniert und beinhaltet alle Vorgaben. Jedoch hat es einen Fehler bei der Eingabe. Wenn man eine höhere Zahl als hundert eingibt, wird diese auch akzeptiert, nur bei etwas anderem als einer Zahl gibt es eine Fehlermeldung aus.
