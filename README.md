@@ -143,7 +143,17 @@ Beim realisieren hatten wir einen guten Start mit der Caesar-Verschlüsselung. J
 | 1.8  |05.12.22|Funktioniert|Angel Angelov|
 
 
-Unser Programm zum Krypto-Verfahren mit Caesar, Vigenere und Base64 läuft. Alles wurde getestet und es funktioniert, wir haben keine Fehler gefunden. Im grossen und ganzen ist es gut verlaufen, ab und zu hatten wir Schwierigkeiten und mussten nachfragen aber ansonsten hat alles geklappt. Man kann jede beliebige Botschaft Verschlüsseln oder auch Entschlüsseln, mit der von dem Benutzer ausgewählten Verschlüsselungs-Methode. Unser Team hat sehr gut harmoniert und dies hat uns einiges erleichtert und geholfen. Wir lagen perfekt im Zeitplan und hatten auch gegen Ende keinen Stress.
+# Auswertung
+
+Was gut lief:
+-Unser Team harmoniert sehr gut, wir lagen sehr gut im Zeitplan
+
+Was nicht so gut lief:
+-Wir blieben oftmals stecken und haben uns am Anfang dann immer den Kopf zerbrochen, anstatt direkt nachzufragen.
+
+Das könnten wir das nächste mal besser machen:
+-Wenn wir lange nicht weiter kommen, direkt nachfragen, anstelle von Kopf zerbrechen. Sonst schinden wir nur Zeit.
+
 
 
 
