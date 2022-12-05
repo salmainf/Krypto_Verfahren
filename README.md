@@ -96,10 +96,10 @@ Nun rechnen wir für den ersten Buchstaben 12+8=20, 20 wäre die Positionszahl v
 | 2.A  |  24.10.22     |Angel Angelov|Kodieren/Dekodieren, mithilfe von Variablen |180 Min|
 | 2.B  |  31.10.22     |Salma Tanner| Eingabe des Schlüssels |180 Min|
 | 3.A  |  31.10.22     |Angel Angelov/Erik Marku| Verchlüsselung/Entschlüsselung implementieren|180 Min|
-| 4.A  |  07.11.22     |Sudenas Eser| Speichern und Ausgabe der Botschaft | 60 Min|
+| 4.A  |  07.11.22     |Sudenas Eser| Speichern und Ausgabe der Botschaft | 90 Min|
 | 5.A  |  07.11.22     |Sudenas Eser| Fragen nach erneuter Eingabe| 90 Min|
 | 5.A  |  07.11.22     |Salma Tanner| Fehlermeldung generieren, try/catch| 60 Min|
-Total: 930 Min
+Total: 1000 Min
 
 # Vignere
 
@@ -107,7 +107,7 @@ Total: 930 Min
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  |  14.11.22    |Sudenas Eser|  |180 Min|
 | 2.A  |  14.11.22    |Salma Tanner| Erstellen von zufälligem Zahlengenerator|180 Min|
-| 2.B  |  21.11.22    |Sudenas Eser Erstellen von Kontrolle für Benutzerzahl/Rückmeldung |180 Min|
+| 2.B  |  21.11.22    |Sudenas Eser | Erstellen von Kontrolle für Benutzerzahl/Rückmeldung |180 Min|
 | 3.A  |  21.11.22    |Salma Tanner| Ausgabe von Rückmeldung an Benutzer|180 Min|
 | 4.A  |  28.11.22    |Sudenas Eser| Bei ungültiger Eingabe, erneuter versuch anstelle von Programmm-Ende| 180 Min|
 | 5.A  |  28.11.22    |Salma Tanner| Nach erraten der Zahl, werden gebrauchte Versuche ausgegeben| 90 Min|
