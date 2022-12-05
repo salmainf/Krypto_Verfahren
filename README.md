@@ -7,7 +7,7 @@ Angelov , Eser , Marku , Tanner
 
 In unserem Projekt geht es um die Verschlüsselung von Botschaften mit zweier Verschlüsselungsarten. In unserem Programm, welches wir in Visual Studio mit C# implementiert haben, kann man als Benutzer auswählen, mit welcher Methode die Botschaft verschlüsselt werden soll. Danach gibt man den Schlüssel ein. Wenn der Schlüssel eingelesen wurde, kann man nun seine Botschaft eingeben, welche dann verschlüsselt/entschlüsselt und auf einer neuen Zeile ausgegeben wird. Danach kann man nach Wunsch auch noch weitere Botschaften verschlüsseln.
 
-# Definierung
+
 
 # Cesar Verschlüsselung
 
