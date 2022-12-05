@@ -121,13 +121,13 @@ Total: 930 Min
 
 ## 3 Entscheiden
 
-Wir haben die Cesar Verschlüsselung erfolgreich Programmieren können und haben dann begonnen, die Vignere Verschlüsselung zu implementieren. Die Aufteilung ist bei uns durchmischt, da wir uns Freiheiten lassen wollten. Somit hat jeder einen Teil programmiert aber die Interessen wurden doch noch abgedeckt.
+Wir haben die Cesar-Verschlüsselung erfolgreich Programmieren können und haben dann begonnen, die Vignere-Verschlüsselung zu implementieren. Die Aufteilung ist bei uns durchmischt, da wir uns Freiheiten lassen wollten. Somit hat jeder einen Teil programmiert aber die Interessen wurden doch noch abgedeckt.
 
 
 ## 4 Realisieren
 
 
-
+Beim realisieren hatten wir einen guten Start mit der Caesar-Verschlüsselung. Jedoch dann bei der Vignere-Verschlüsselung mussten wir uns mehr anstrengen, da sie sehr komplex ist. Es hat eine Weile gedauert bis wir das Prinzip davon verstanden haben. Aber danach haben wir unser Bestes gegeben und es dann doch gut implementiert. 
 
 ## 5 Kontrollieren
 
