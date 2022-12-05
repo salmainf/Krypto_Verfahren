@@ -5,7 +5,7 @@ Angelov , Eser , Marku , Tanner
 
 # Einführung
 
-In unserem Projekt geht es um die Verschlüsselung von Botschaften mit zweier Verschlüsselungsarten. In unserem Programm, welches wir in Visual Studio mit C# implementiert haben, kann man als Benutzer auswählen, mit welcher Methode die Botschaft verschlüsselt werden soll. Danach gibt man den Schlüssel/das Schlüsselwort ein. Wenn es eingelesen wurde, kann man nun seine Botschaft eingeben, welche dann verschlüsselt und auf einer neuen Zeile ausgegeben wird. Danach kann man nach Wunsch auch noch weitere Botschaften verschlüsseln.
+In unserem Projekt geht es um die Verschlüsselung von Botschaften mit zweier Verschlüsselungsarten. In unserem Programm, welches wir in Visual Studio mit C# implementiert haben, kann man als Benutzer auswählen, mit welcher Methode die Botschaft verschlüsselt werden soll. Danach gibt man den Schlüssel ein. Wenn der Schlüssel eingelesen wurde, kann man nun seine Botschaft eingeben, welche dann verschlüsselt/entschlüsselt und auf einer neuen Zeile ausgegeben wird. Danach kann man nach Wunsch auch noch weitere Botschaften verschlüsseln.
 
 # Definierung
 
@@ -13,15 +13,15 @@ In unserem Projekt geht es um die Verschlüsselung von Botschaften mit zweier Ve
 
 Die Cesar Verschlüsselung ist die einfachste aber auch unsicherste Verschlüsselungsmethode. Man verschiebt im 26 buchstabigen lateinischen Alphabet die Zeichen zyklisch eine gewisse Anzahl nach rechts, somit geht es automatisch wieder zu "A" wenn es "Z" überschreitet.Diese Verschiebung ist der Schlüssel des ganzen. Bei dem ganzen Verfahren wird also das normale Alphabet mit dem Schlüssel auf eine neue Abfolge des Alphabets überschrieben.
 
-D.h z.B wenn der Schlüssel 8 ist, wäre A=I
+Das heisst z.B wenn der Schlüssel 8 ist, wäre A=I
 
 So könnte man das Wort "Sicher" mit diesem Schlüssel verschlüsseln. Somit käme man auf das verschlüsselte Wort: "AQKPMZ"
 
 # Vigenère Verschlüsselung
 
-Bei der Vignere Verschlüsselung wird nicht, wie bei der Cesar, jeder Klartextbuchstabe um eine gewisse Zahl verschoben, sonder man verschiebt mithilfe eines Schlüsselwortes. Das Schlüsselwort kann selbstständig gewählt werden vom Benutzer. Hierbei nummeriert man das Alphabet von 0-25, d.h z.B A=0 und B=1 usw. Man weist also erst einmal jedem Buchstaben des Schlüsselwortes und des Klartextes eine Zahl, also die Position des Buchstabens, zu. Dann begint man und Verschlüsselt immer den ersten Buchstaben des Klartextes, mit dem ersten Buchstaben des Schlüsselwortes. Wenn das Schlüsselwort zu Ende ist, fängt man wieder von vorne an. Nun addiert man die beiden Zahlen der zusammengehörigen Buchstaben und erhält somit die Positionszahl des verschlüsselten Buchstaben.
+Bei der Vigenere Verschlüsselung wird nicht, wie bei der Cesar, jeder Klartextbuchstabe um eine gewisse Zahl verschoben, sonder man verschiebt mithilfe eines Schlüsselwortes. Das Schlüsselwort kann selbstständig gewählt werden vom Benutzer. Hierbei nummeriert man das Alphabet von 0-25, d.h z.B A=0 und B=1 usw. Man weist also erst einmal jedem Buchstaben des Schlüsselwortes und des Klartextes eine Zahl, also die Position des Buchstabens, zu. Dann begint man und Verschlüsselt immer den ersten Buchstaben des Klartextes, mit dem ersten Buchstaben des Schlüsselwortes. Wenn das Schlüsselwort zu Ende ist, fängt man wieder von vorne an. Nun addiert man die beiden Zahlen der zusammengehörigen Buchstaben und erhält somit die Positionszahl des verschlüsselten Buchstaben.
 
-D.h z.B wenn das Schlüsselwort "montag" wäre und der Klartext ist "Ich liebe den Montag" verschieben wir so:
+Das heisst z.B wenn das Schlüsselwort "Montag" wäre und der Klartext ist "Ich liebe den Montag" verschieben wir so:
 
 |.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|.|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -42,12 +42,12 @@ Nun rechnen wir für den ersten Buchstaben 12+8=20, 20 wäre die Positionszahl v
 
 | IPERKA | Mitglied | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|I|Alle|Informieren über Cesar-Methode, verstehen wie diese funktioniert. In Gruppe absprechen, ob es alle verstanden haben. |
+|I|Alle|Informieren über Verschlüsselungs-Methode, verstehen wie diese funktioniert. In Gruppe absprechen, ob es alle verstanden haben. |
 |P|Alle|Planen, Auftrag in kleinere Teilaufgträge aufspalten.Einteilen wer welche Aufträge übernimmt, was für Wissen dazu nötig ist. Allfällige Fragen mit dem Auftraggeber klären.|    
 |E|Alle|Entscheiden, ob noch weitere Einteilungen/Informationen nötig sind. Plan nach Logik und Fehlern durchsuchen, wenn alles stimmt zur nächsten Phase übergehen.|
-|R|Alle|Programmieren des Projektes in Visual Studios.|
+|R|Alle|Realisieren des Projektes in Visual Studios.|
 |K|Alle|Kontrollieren, ob das Programm sauber läuft.|
-|A|Alle|Auswerten des Endproduktes.|
+|A|Alle|Auswerten des fertigen Programmes.|
 
 
 
@@ -59,7 +59,7 @@ Nun rechnen wir für den ersten Buchstaben 12+8=20, 20 wäre die Positionszahl v
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |  Funktional     | Muss | Als Programmierer möchte ich dem Benutzer die Auswahlmöglichkeit zwischen der Cesar/Base-64/Vignere Verschlüsselung geben |
-| 2    |  Funktional     | Muss | Als Programmierer möchte ich dem Benutzer die Auswahlmöglichkeit zwischen kodieren/dekodieren geben |
+| 2    |  Funktional     | Muss | Als Programmierer möchte ich dem Benutzer die Auswahlmöglichkeit zwischen Verschlüsseln/Entschlüsseln geben |
 | 3    |  Funktional     | Muss | Als Benutzer möchte ich einen Schlüssel eingeben können, mit dem meine Botschaft verschlüsselt wird |
 | 4    |  Funktional     | Muss | Als Benutzer möchte ich eine Botschaft eingeben können |
 | 5    |  Funktional     | Muss | Als Programmierer möchte ich die Botschaft erfolgreich verschlüsseln/entschlüsseln können |
@@ -73,7 +73,7 @@ Nun rechnen wir für den ersten Buchstaben 12+8=20, 20 wäre die Positionszahl v
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  |Konsole startet, warten auf Auswahl|Auswahl einer Verschlüsselung-Art|Ausgabe von meiner Auswahl|
-| 1.2  |Konsole läuft, Abfragen, welchen Dienst, Codieren/Decodieren|Eingabe des gewüschten Dienstes| Ausgabe meiner Wahl|
+| 1.2  |Konsole läuft, Abfragen, welchen Dienst, Verschlüsseln/Entschlüsseln|Eingabe des gewüschten Dienstes| Ausgabe meiner Wahl|
 | 1.3  |Konsole läuft, warten auf Eingabe von Schlüssel| Eingabe eines Schlüssels | Einlesen des Schlüssels|
 | 1.4  |Konsole läuft, warten auf Eingabe von Botschaft| Eingabe einer Botschaft | Einlesen der Botschaft|
 | 1.5  |Konsole läuft, Botschaft erhalten|Verschlüsseln/Entschlüsseln der Botschaft| Ausgabe von verarbeiteter Botschaft|
