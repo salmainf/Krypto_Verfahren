@@ -93,10 +93,10 @@ Nun rechnen wir für den ersten Buchstaben 12+8=20, 20 wäre die Positionszahl v
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  |  24.10.22     |Erik Marku|Auswahl der Verschlüsselungs-Art |180 Min|
-| 2.A  |  24.10.22     |Angel Angelov|Kodieren/Dekodieren, mithilfe von Variablen |180 Min|
+| 2.A  |  24.10.22     |Angel Angelov|Auswahl Verschlüsseln/Entschlüsseln, mithilfe von Variablen |180 Min|
 | 2.B  |  31.10.22     |Salma Tanner| Eingabe des Schlüssels |180 Min|
-| 3.A  |  31.10.22     |Angel Angelov/Erik Marku| Verchlüsselung/Entschlüsselung implementieren|180 Min|
-| 4.A  |  07.11.22     |Sudenas Eser| Speichern und Ausgabe der Botschaft | 90 Min|
+| 3.A  |  31.10.22     |Angel Angelov/Erik Marku| Verschlüsselung/Entschlüsselung implementieren|180 Min|
+| 4.A  |  07.11.22     |Sudenas Eser| Speichern und Ausgabe der Botschaft mit eingegebenem Schlüssel| 90 Min|
 | 5.A  |  07.11.22     |Sudenas Eser| Fragen nach erneuter Eingabe| 90 Min|
 | 5.A  |  07.11.22     |Salma Tanner| Fehlermeldung generieren, try/catch| 60 Min|
 Total: 1000 Min
@@ -105,23 +105,23 @@ Total: 1000 Min
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |  14.11.22    |Sudenas Eser| |180 Min|
-| 2.A  |  14.11.22    |Salma Tanner| Einlesen von Schlüssel, wenn kleiner/grösser als Botschaft|180 Min|
-| 2.B  |  21.11.22    |Sudenas Eser | Erstellen von Kontrolle für Benutzerzahl/Rückmeldung |180 Min|
-| 3.A  |  21.11.22    |Salma Tanner| Ausgabe von Rückmeldung an Benutzer|180 Min|
-| 4.A  |  28.11.22    |Sudenas Eser| Bei ungültiger Eingabe, erneuter versuch anstelle von Programmm-Ende| 180 Min|
-| 5.A  |  28.11.22    |Salma Tanner| Nach erraten der Zahl, werden gebrauchte Versuche ausgegeben| 90 Min|
-| 6.A  |  5.11.22     |Salma Tanner| Nach erraten der Zahl, werden gebrauchte Versuche ausgegeben| 60 Min|
-Total: 930 Min
+| 1.A  |  14.11.22    |Salma Tanner| Auswahl der Verschlüsselungs-Art |180 Min|
+| 2.A  |  14.11.22    |Sudenas Eser|Auswahl Verschlüsseln/Entschlüsseln, mithilfe von Variablen |180 Min|
+| 2.B  |  21.11.22    |Sudenas Eser |  Eingabe des Schlüssels, Evt. Wiederholen/Verkürzen des Schlüssels|210 Min|
+| 3.A  |  21.11.22    |Salma Tanner| Verschlüsselung/Entschlüsselung implementieren|180 Min|
+| 4.A  |  28.11.22    |Sudenas Eser|  Speichern und Ausgabe der Botschaft mit eingegebenem Schlüssel| 180 Min|
+| 5.A  |  28.11.22    |Salma Tanner| Fragen nach erneuter Eingabe| 90 Min|
+| 6.A  |  5.11.22     |Salma Tanner|Fehlermeldung generieren, try/catch| 60 Min|
+Total: 1000 Min
 
 
 
-
+Total insgesamt: 2000 Min= 34h
 
 
 ## 3 Entscheiden
 
-Wir haben die Cesar-Verschlüsselung erfolgreich Programmieren können und haben dann begonnen, die Vignere-Verschlüsselung zu implementieren. Die Aufteilung ist bei uns durchmischt, da wir uns Freiheiten lassen wollten. Somit hat jeder einen Teil programmiert aber die Interessen wurden doch noch abgedeckt.
+Wir haben die Cesar-Verschlüsselung erfolgreich Programmieren können und haben dann begonnen, die Vignere-Verschlüsselung zu implementieren. Die Aufteilung ist bei uns durchmischt, da wir uns Freiheiten lassen wollten. Somit hat jeder einen Teil programmiert aber die Interessen wurden doch noch abgedeckt. So konnten wir zusammenarbeiten und noch vorhandene Lücken im Wissen flicken.
 
 
 ## 4 Realisieren
@@ -130,8 +130,6 @@ Wir haben die Cesar-Verschlüsselung erfolgreich Programmieren können und haben
 Beim realisieren hatten wir einen guten Start mit der Caesar-Verschlüsselung. Jedoch dann bei der Vignere-Verschlüsselung mussten wir uns mehr anstrengen, da sie sehr komplex ist. Es hat eine Weile gedauert bis wir das Prinzip davon verstanden haben. Aber danach haben wir unser Bestes gegeben und es dann doch gut implementiert. 
 
 ## 5 Kontrollieren
-
- AA-
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
@@ -145,7 +143,7 @@ Beim realisieren hatten wir einen guten Start mit der Caesar-Verschlüsselung. J
 | 1.8  |05.12.22|Funktioniert|Angel Angelov|
 
 
-AA-Das Spiel funktioniert und beinhaltet alle Vorgaben. Jedoch hat es einen Fehler bei der Eingabe. Wenn man eine höhere Zahl als hundert eingibt, wird diese auch akzeptiert, nur bei etwas anderem als einer Zahl gibt es eine Fehlermeldung aus.
+Unser Programm zum Krypto-Verfahren mit Caesar, Vigenere und Base64 läuft. Alles wurde getestet und es funktioniert, wir haben keine Fehler gefunden. Im grossen und ganzen ist es gut verlaufen, ab und zu hatten wir Schwierigkeiten und mussten nachfragen aber ansonsten hat alles geklappt. Man kann jede beliebige Botschaft Verschlüsseln oder auch Entschlüsseln, mit der von dem Benutzer ausgewählten Verschlüsselungs-Methode. Unser Team hat sehr gut harmoniert und dies hat uns einiges erleichtert und geholfen. Wir lagen perfekt im Zeitplan und hatten auch gegen Ende keinen Stress.
 
 
 
