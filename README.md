@@ -19,7 +19,7 @@ So könnte man das Wort "Sicher" mit diesem Schlüssel verschlüsseln. Somit kä
 
 # Vigenère Verschlüsselung
 
-Bei der Vigenere Verschlüsselung wird nicht, wie bei der Cesar, jeder Klartextbuchstabe um eine gewisse Zahl verschoben, sonder man verschiebt mithilfe eines Schlüsselwortes. Das Schlüsselwort kann selbstständig gewählt werden vom Benutzer. Hierbei nummeriert man das Alphabet von 0-25, d.h z.B A=0 und B=1 usw. Man weist also erst einmal jedem Buchstaben des Schlüsselwortes und des Klartextes eine Zahl, also die Position des Buchstabens, zu. Dann begint man und Verschlüsselt immer den ersten Buchstaben des Klartextes, mit dem ersten Buchstaben des Schlüsselwortes. Wenn das Schlüsselwort zu Ende ist, fängt man wieder von vorne an. Nun addiert man die beiden Zahlen der zusammengehörigen Buchstaben und erhält somit die Positionszahl des verschlüsselten Buchstaben.
+Bei der Vigenere Verschlüsselung wird nicht, wie bei der Cesar, jeder Klartextbuchstabe um eine gewisse Zahl verschoben, sonder man verschiebt mithilfe eines Schlüsselwortes. Das Schlüsselwort kann selbstständig gewählt werden vom Benutzer. Hierbei nummeriert man das Alphabet von 0-25, das heisst z.B A=0 und B=1 usw. Man weist also erst einmal jedem Buchstaben des Schlüsselwortes und des Klartextes eine Zahl, also die Position des Buchstabens, zu. Dann begint man und Verschlüsselt immer den ersten Buchstaben des Klartextes, mit dem ersten Buchstaben des Schlüsselwortes. Wenn das Schlüsselwort zu Ende ist, fängt man wieder von vorne an. Nun addiert man die beiden Zahlen der zusammengehörigen Buchstaben und erhält somit die Positionszahl des verschlüsselten Buchstaben.
 
 Das heisst z.B wenn das Schlüsselwort "Montag" wäre und der Klartext ist "Ich liebe den Montag" verschieben wir so:
 
